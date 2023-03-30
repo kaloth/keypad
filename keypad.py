@@ -193,6 +193,9 @@ class EliteDangerousStatusService(StatusService):
 	def read_elite_status(self, dbg=False):
 		fn = os.path.join(os.environ['USERPROFILE'], "Saved Games/Frontier Developments/Elite Dangerous/Status.json")
 		
+		if not os.path.exists(fn):
+			return
+		
 		date = os.path.getmtime(fn)
 		flags = 0
 		
