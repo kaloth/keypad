@@ -1,0 +1,66 @@
+{
+	"_default_" : {
+		"keymap" : {},
+		"lightmap" : {
+			"0" : {"type" : "never"},
+			"1" : {"type" : "never"},
+			"2" : {"type" : "never"},
+			"3" : {"type" : "never"},
+			"4" : {"type" : "never"}
+		}
+	},
+	"EDLaunch.exe": {
+		"keymap" : {},
+		"lightmap" : {
+			"0" : {"type" : "pattern", "pattern" : "#    ##"},
+			"1" : {"type" : "pattern", "pattern" : "##  ## "},
+			"2" : {"type" : "pattern", "pattern" : " ####  "},
+			"3" : {"type" : "pattern", "pattern" : "##  ## "},
+			"4" : {"type" : "pattern", "pattern" : "#    ##"}
+		}
+	},
+	"EliteDangerous64.exe" : {
+		"keymap" : {
+			"0" : {"type" : "elite_dangerous_autotoggle", "invert": true, "keypress" : "v", "edstatus" : 28},
+			"1" : {"type" : "elite_dangerous_autotoggle", "invert": true, "keypress" : "l", "edstatus" : 2},
+			"2" : {"type" : "elite_dangerous_autotoggle", "invert": true, "keypress" : "c", "edstatus" : 9},
+			"3" : {"type" : "elite_dangerous_autotoggle", "invert": true, "keypress" : "u", "edstatus" : 6},
+			"4" : {"type" : "default", "invert": false, "keypress" : "1"},
+			"5" : {"type" : "default", "invert": false, "keypress" : "2"},
+			"6" : {"type" : "default", "invert": false, "keypress" : "3"},
+			"7" : {"type" : "default", "invert": false, "keypress" : "4"}
+		},
+		"lightmap" : {
+			"0" : {"type" : "elite_dangerous_status", "edstatus" : 22, "pattern" : "## #"},
+			"1" : {"type" : "elite_dangerous_status", "edstatus" : 22, "pattern" : " ###"},
+			"2" : {"type" : "elite_dangerous_status", "edstatus" : 28, "pattern" : "#"},
+			"3" : {"type" : "elite_dangerous_status", "edstatus" : 0, "pattern" : "###  "},
+			"4" : {"type" : "elite_dangerous_status", "edstatus" : 4, "pattern" : "# ## # ### # ## #### # "}
+		}
+	},
+	"notepad.exe" : {
+		"keymap" : {
+			"0" : {"type" : "press_release_ud", "invert": false, "keypress" : "0"},
+			"1" : {"type" : "press_release_d", "invert": false, "keypress" : "1"},
+			"2" : {"type" : "press_release_u", "invert": false, "keypress" : "4"},
+			"3" : {"type" : "default", "invert": false, "keypress" : "h,e,l,l,o"}
+		},
+		"lightmap" : {
+			"0" : {"type" : "always", "pattern" : "# "},
+			"1" : {"type" : "never", "pattern" : "##  "},
+			"2" : {"type" : "pattern", "pattern" : "####  ##  "},
+			"3" : {"type" : "pattern", "pattern" : "# # "},
+			"4" : {"type" : "pattern", "pattern" : " # #"}
+		}
+	},
+	"OUTLOOK.EXE" : {
+		"keymap" : {},
+		"lightmap" : {
+			"0" : {"type" : "pattern", "pattern" : "# "},
+			"1" : {"type" : "pattern", "pattern" : "# "},
+			"2" : {"type" : "pattern", "pattern" : "# "},
+			"3" : {"type" : "pattern", "pattern" : "# "},
+			"4" : {"type" : "pattern", "pattern" : "# "}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"_default_" : {
+		"keymap" : {
+			"0" : {"type" : "debug", "invert": false},
+			"1" : {"type" : "debug", "invert": false},
+			"2" : {"type" : "debug", "invert": false},
+			"3" : {"type" : "debug", "invert": false},
+			"4" : {"type" : "debug", "invert": false},
+			"5" : {"type" : "debug", "invert": false},
+			"6" : {"type" : "debug", "invert": false},
+			"7" : {"type" : "debug", "invert": false}
+		},
+		"lightmap" : {
+			"0" : {"type" : "never"},
+			"1" : {"type" : "never"},
+			"2" : {"type" : "never"},
+			"3" : {"type" : "never"},
+			"4" : {"type" : "never"}
+		}
+	}
+}
