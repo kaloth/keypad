@@ -11,7 +11,7 @@ Next install the additional dependencies by running the following command.
 
 ## USB Serial Driver Installation
 
-This keypad uses an Arduino Nano with a **CH340** USB Serial interface. Please unzip the included driver package "Elegoo CH340 Driver 2020.07.09.zip" or alternatively download the latest from [Elegoo](https://www.elegoo.com/pages/download).
+This keypad uses an Arduino Nano with a **CH340** USB Serial interface. Please unzip the included driver package "ELEGOO CH340 Driver 2022.09.29.zip" or alternatively download the latest from [Elegoo](https://www.elegoo.com/pages/download).
 
 ## Command Line Options
 
